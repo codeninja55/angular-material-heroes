@@ -4,7 +4,7 @@ A book following the Tour of Heroes guide from [angular.io](https://angular.io/t
 
 The guide to this project can be found at [GitBook Project Guide](https://codeninja55.gitbooks.io/angular-material-heroes/content/). The code for this project can be found at [GitHub](https://github.com/codeninja55/angular-material-heroes).
 
-![Angular logo](./img/angular_full_color_logo.png)
+![Angular logo](./img/angular_and_material_logos@512px.png)
 
 ## What is the goal of this project and guide?
 
