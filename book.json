@@ -1,6 +1,6 @@
 [
     {
-        "root": "project-guide"
+        "root": "./project-guide"
     },
     {
         "title": "Angular Material Heroes"
