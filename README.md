@@ -2,7 +2,7 @@
 
 A book following the Tour of Heroes guide from [angular.io](https://angular.io/tutorial) and incorporating [Angular Material](https://material.angular.io/) project. This project and it's accompanying guide is a work in progress and more will be added as I go.
 
-The guide to this project can be found at [GitBook Project Guide](https://codeninja55.gitbooks.io/angular-material-heroes/content/).
+The guide to this project can be found at [GitBook Project Guide](https://codeninja55.gitbooks.io/angular-material-heroes/content/). The code for this project can be found at [GitHub](https://github.com/codeninja55/angular-material-heroes).
 
 
 
