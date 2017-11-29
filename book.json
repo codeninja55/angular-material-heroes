@@ -6,6 +6,6 @@
     "author": "Andrew Che (andrew@codeninja55.me)",
     "language": "en",
     "gitbook": ">= 3.2.3",
-    "plugins": ["bibtex-cite"]
+    "plugins": []
 }
     
