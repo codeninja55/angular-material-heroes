@@ -16,6 +16,8 @@ First and foremost, the motivation and goal of this project was for me to learn 
 
 This project is made for those raw beginners out in Angular and Web Development (like myself). This book will go through all the steps necessary to set up a development environment and follow the Angular guide. Furthermore, this project will include references to extra materials for in-depth research. 
 
+
+
 ## How to follow progress?
 
 Each chapter of the project guide can be followed by its accompanying branch. Each branch will be named chapter_#. 
@@ -56,6 +58,8 @@ Please note some of the versions will not be current if you are reading this in 
 | NodeJS Command Prompt                    | BASH                                     |
 |                                          |                                          |
 
+
+
 ## Feedback
 
 I humbly request and encourage anyone reading this project guide to provide feedback. As a student myself, I welcome any criticism or suggestions from others. You can contact me at the following:
@@ -63,6 +67,7 @@ I humbly request and encourage anyone reading this project guide to provide feed
 * Twitter &middot; [@codeninja55](https://twitter.com/codeninja55)
 * Email &middot; [andrew@codeninja55.me](mailto:andrew@codeninja55.me)
 * GitHub &middot; [codeninja55](https://github.com/codeninja55)
+
 
 
 
