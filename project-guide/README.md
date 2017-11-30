@@ -117,12 +117,3 @@ I humbly request and encourage anyone reading this project guide to provide feed
 - GitHub &middot; [codeninja55](https://github.com/codeninja55)
 
 
-
-## Chapter Outlines
-
-- [x] Introduction/README
-- [ ] Git and GitHub
-- [ ] Angular Development Environment Setup
-      - [ ] Windows
-      - [ ] Linux/MacOS
-- [ ] ​
