@@ -50,11 +50,53 @@ There are two main ways to get the TypeScript tools:
 
 ```bash
 > npm install -g typescript
++ typescript@2.6.2
+added 1 package in 2.338s
 ```
 
 ###### BASH Shell
 
 ```bash
 $ npm install -g typescript
++ typescript@2.6.2
+added 1 package in 0.927s
 ```
+
+
+
+#### Create a TypeScript file to compile
+
+###### hello.ts
+
+```javascript
+var person: string = prompt("Name please: ")
+
+function greeter(person: string) {
+  alert("Hello " + person)
+}
+
+greeter(person)
+```
+
+
+
+At the command line, run the TypeScript compiler:
+
+```bash
+$ tsc hello.ts
+```
+
+
+
+You will now see in the same directory a new JavaScript file `hello.js`.
+
+
+
+If you would to try more TypeScript syntax, you can use the online editor provided by the TypeScript team at Microsoft.
+
+
+
+[__TypeScript Playground__](https://www.typescriptlang.org/play/index.html)
+
+[![TypeScript Playground Online Editor](./img/typescript_playground.png)](https://www.typescriptlang.org/play/index.html)
 
