@@ -7,5 +7,10 @@
   * [2.2. Linux](./chapter-2/2.2.Linux.md)
 
 
+---
+
+* [3.0. TypeScript Basics](./chapter-3/INTRODUCTION.md)
+  * [3.1. TypeScript Handbook](./chapter-3/3.1.Handbook.md)
+
 
 
