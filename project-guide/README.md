@@ -104,7 +104,6 @@ Please note some of the versions will not be current if you are reading this in 
 | [npm 5.5.1](https://docs.npmjs.com/getting-started/installing-node) | [npm 5.5.1](https://docs.npmjs.com/getting-started/installing-node) |
 | [Angular CLI v1.5.4](https://cli.angular.io/) | [Angular CLI v1.5.4](https://cli.angular.io/) |
 | NodeJS Command Prompt                    | BASH                                     |
-|                                          |                                          |
 
 
 
@@ -115,5 +114,4 @@ I humbly request and encourage anyone reading this project guide to provide feed
 - Twitter &middot; [@codeninja55](https://twitter.com/codeninja55)
 - Email &middot; [andrew@codeninja55.me](mailto:andrew@codeninja55.me)
 - GitHub &middot; [codeninja55](https://github.com/codeninja55)
-
 
