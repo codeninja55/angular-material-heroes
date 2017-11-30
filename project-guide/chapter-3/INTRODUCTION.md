@@ -13,6 +13,7 @@ This chapter will be evolving with content will be added as we approach them dur
 | [1]: https://en.wikipedia.org/wiki/TypeScript "TypeScript" |
 | [2]: https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md#1 "TypeScript Language Specification" |
 | [3]: https://johnpapa.net/typescriptpost1/ "TypeScript Fundamentals" |
+| [4]: https://basarat.gitbooks.io/typescript/content/ "TypeScript Deep Dive" |
 
 
 
@@ -32,7 +33,7 @@ This chapter will be evolving with content will be added as we approach them dur
 
 | REFERENCES                               |
 | ---------------------------------------- |
-| [4] https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html "TypeScript in 5 Minutes" |
+| [5] https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html "TypeScript in 5 Minutes" |
 
 There are two main ways to get the TypeScript tools:
 
