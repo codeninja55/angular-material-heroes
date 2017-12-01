@@ -12,6 +12,9 @@
 * [3.0. TypeScript Basics](./chapter-3/INTRODUCTION.md)
   * [3.1. TypeScript Handbook](./chapter-3/typescript_handbook/3.1.Handbook.md)
     * [3.1.1. Basic Types](chapter-3/typescript_handbook/3.1.1.basic_types.md)
+    * [3.1.2. Variable Declarations](chapter-3/typescript_handbook/3.1.2.variable_declarations.md)
+    * [3.1.3. Interfaces](chapter-3/typescript_handbook/3.1.3.interfaces.md)
+    * [3.1.4 Classes](chapter-3/typescript_handbook/3.1.4.classes.md)
 
 
 ---
