@@ -10,7 +10,8 @@
 ---
 
 * [3.0. TypeScript Basics](./chapter-3/INTRODUCTION.md)
-  * [3.1. TypeScript Handbook](./chapter-3/3.1.Handbook.md)
+  * [3.1. TypeScript Handbook](./chapter-3/typescript_handbook/3.1.Handbook.md)
+    * [3.1.1. Basic Types](chapter-3/typescript_handbook/3.1.1.basic_types.md)
 
 
 ---
