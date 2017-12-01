@@ -48,7 +48,7 @@ Code blocks for files will be as follows:
 
 ###### folder/file.ts
 
-```javascript
+```typescript
 /** This is a TypeScript comment and file */
 function foo() {
   console.log("This is a TypeScript function called foo")

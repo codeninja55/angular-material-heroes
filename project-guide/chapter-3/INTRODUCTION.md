@@ -68,7 +68,7 @@ added 1 package in 0.927s
 
 ###### hello.ts
 
-```javascript
+```typescript
 var person: string = prompt("Name please: ")
 
 function greeter(person: string) {
