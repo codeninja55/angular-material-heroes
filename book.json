@@ -1,6 +1,6 @@
 
 {
-    "root": "./project-guide",
+    "root": "./project-guide/",
     "title": "Angular Material Heroes",
     "description": "A book following the Tour of Heroes guide from angular.io and incorporating Angular Material project.",
     "author": "Andrew Che (andrew@codeninja55.me)",

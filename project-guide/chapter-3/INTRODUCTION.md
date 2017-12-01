@@ -17,9 +17,13 @@ This chapter will be evolving with content will be added as we approach them dur
 
 
 
+
+
 > TypeScript is a free and open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript, and adds optional static typing to the language. Anders Hejlsberg, lead architect of C# and creator of Delphi and Turbo Pascal, has worked on the development of TypeScript. TypeScript may be used to develop JavaScript applications for client-side or server-side (Node.js) execution.
 >
 > [TypeScript, Wikipedia][1]
+
+
 
 
 
