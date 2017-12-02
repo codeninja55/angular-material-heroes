@@ -24,4 +24,6 @@
 
 ---
 
+* [4.0 Angular](chapter-4/INTRODUCTION.md)
+  * [4.1. Angular Architecture](chapter-4/4.1.angular_architecture.md)
 
