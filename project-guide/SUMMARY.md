@@ -14,7 +14,12 @@
     * [3.1.1. Basic Types](chapter-3/typescript_handbook/3.1.1.basic_types.md)
     * [3.1.2. Variable Declarations](chapter-3/typescript_handbook/3.1.2.variable_declarations.md)
     * [3.1.3. Interfaces](chapter-3/typescript_handbook/3.1.3.interfaces.md)
-    * [3.1.4 Classes](chapter-3/typescript_handbook/3.1.4.classes.md)
+    * [3.1.4. Classes](chapter-3/typescript_handbook/3.1.4.classes.md)
+    * [3.1.5. Functions](chapter-3/typescript_handbook/3.1.5.functions.md)
+    * [3.1.6. Enums](chapter-3/typescript_handbook/3.1.6.enums.md)
+    * [3.1.7. Type Inference](chapter-3/typescript_handbook/3.1.7.type_inference.md)
+    * [3.1.8. Modules](chapter-3/typescript_handbook/3.1.8.Modules.md)
+    * [3.1.9. Decorators](chapter-3/typescript_handbook/3.1.9.decorators.md)
 
 
 ---

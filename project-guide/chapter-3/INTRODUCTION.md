@@ -2,7 +2,7 @@
 
 In this chapter, we will explore some basics of TypeScript from the [TypeScript Documentation Handbook](https://www.typescriptlang.org/docs/home.html).
 
-This chapter will be evolving with content will be added as we approach them during the Angular tutorial. A deep understanding of TypeScript is not necessary for Angular (which allows the use of JavaScript as well as TypeScript). However, since Angular is written in TypeScript, a good understanding of the syntactical style of TypeScript can be advantageous for larger development projects.
+This chapter will be evolving with content added as we approach them during the Angular tutorial. A deep understanding of TypeScript is not necessary for Angular (which allows the use of JavaScript as well as TypeScript). However, since Angular is written in TypeScript, a good understanding of the syntactical style of TypeScript can be advantageous for larger development projects.
 
 
 
@@ -33,11 +33,38 @@ This chapter will be evolving with content will be added as we approach them dur
 
 
 
+## Why do we need TypeScript?
+
+| REFERENCES                               |
+| ---------------------------------------- |
+| [5]: https://blogs.msdn.microsoft.com/somasegar/2012/10/01/typescript-javascript-development-at-application-scale/ "TypeScript: JavaScript Development at Application Scale" |
+| [6]: https://johnpapa.net/es5-es2015-typescript/ "Understanding ES5, ES2015 and TypeScript" |
+| [7]: https://basarat.gitbooks.io/typescript/content/docs/why-typescript.html "Why TypeScript" |
+| [8]: R.H. Jansen, _Learning TypeScript_. Birmingham, UK, Packt Publishing Ltd., 2015. [Online]. Available at: https://www.packtpub.com/web-development/learning-typescript. |
+
+
+
+As you may have noticed in the naming, TypeScript introduces types to the JavaScript language. But why do we need to use it at all? If you do a quick Google search of the matter, there are many arguments out. I have referenced some above for your reading. However, in my research, these points from Jansen (2015) provide yet the clearest reasons why TypeScript will be needed in your Angular development projects:
+
+> * Annotating our code with types ensures a consistent integration of our different code units and improves code readability and comprehension. 
+> * The TypeScript's built-in type-checker will analyze your code at runtime and help you prevent errors even before executing your code.
+> * The use of types ensures consistency across your applications. In combination with the previous two, the overall code errors footprint gets minimized in the long run. 
+> * TypeScript extends classes with longtime demanded features such as class fields, private members, enums, and so on. 
+> * The use of decorators opens the door to extend our classes and implementations in unparalleled ways. 
+> * Creating interfaces and type definition files (which we will not cover in this book though) ensures a smooth and seamless integration of our libraries in other systems and codebases. 
+> * TypeScript support across the different IDEs on store is terrific, and we can benefit from code highlighting, real-time type checking, and automatic compilation at no cost. 
+> * The TypeScript syntax will definitely please developers coming from other backgrounds such as Java, C#, C++, and so on.
+>
+> [8, Ch. 2][8]
+
+
+
+
 ## Installation
 
 | REFERENCES                               |
 | ---------------------------------------- |
-| [5] https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html "TypeScript in 5 Minutes" |
+| [9] https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html "TypeScript in 5 Minutes" |
 
 There are two main ways to get the TypeScript tools:
 
