@@ -1,0 +1,21 @@
+@import '../../../node_modules/@angular/material/prebuilt-themes/indigo-pink.css';
+
+.flex-spacer {
+  -webkit-box-flex: 1;
+  /*flex-grow: 1;*/
+  flex: 1 1 auto;
+}
+
+.navbar {
+  /*position: fixed;*/
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.navbar a {
+  line-height: 0;
+  color: #fff;
+}

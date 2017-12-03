@@ -28,3 +28,8 @@
   * [4.1. Angular Architecture](chapter-4/4.1.angular_architecture.md)
 * [5.0. Tour of Heroes Tutorial](chapter-5/INTRODUCTION.md)
 
+
+---
+
+* Appendix
+  * [Angular CLI Common Commands](appendix/angular_cli_common_commands.md)
