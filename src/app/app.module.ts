@@ -3,19 +3,19 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { MatToolbarModule } from '@angular/material';
-import { MatButtonModule } from '@angular/material/button';
+import { MaterialModule } from './material.module';
 import { MatNavbarComponent  } from './mat-navbar/mat-navbar.component';
+import { HeroesComponent } from './heroes/heroes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MatNavbarComponent
+    MatNavbarComponent,
+    HeroesComponent
   ],
   imports: [
     BrowserModule,
-    MatToolbarModule,
-    MatButtonModule,
+    MaterialModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
