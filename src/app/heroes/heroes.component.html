@@ -1,4 +1,23 @@
 
-<h2>{{ hero.name }} Details</h2>
-<div><span>id: </span>{{hero.id}}</div>
-<div><span>name: </span>{{hero.name}}</div>
+
+<div class="row">
+  <div class="col s6">
+    <mat-card class="mat-elevation-z4">
+      <mat-card-header>
+        <div mat-card-avatar class="header-image"></div>
+        <mat-card-title>{{ hero.name | uppercase }}</mat-card-title>
+        <mat-card-subtitle><span>ID:</span>{{ hero.id }}</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image src="https://i.annihil.us/u/prod/marvel/i/mg/9/80/537ba5b368b7d.jpg" alt="Captain America Image">
+      <mat-card-content>
+        <p>
+          {{hero.name}}
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button>LIKE</button>
+        <button mat-button>SHARE</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>
