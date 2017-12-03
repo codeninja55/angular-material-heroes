@@ -24,6 +24,15 @@
 
 ---
 
-* [4.0 Angular](chapter-4/INTRODUCTION.md)
+* [4.0. Angular](chapter-4/INTRODUCTION.md)
   * [4.1. Angular Architecture](chapter-4/4.1.angular_architecture.md)
+* [5.0. Tour of Heroes Tutorial](chapter-5/INTRODUCTION.md)
+  * [5.1. Application Shell](chapter-5/5.1.application_shell.md)
+  * [5.2. Angular Material Navbar](chapter-5/5.2.angular_material_navbar.md)
+  * [5.3. Hero Editor](chapter-5/5.3.hero_editor.md)
 
+
+---
+
+* Appendix
+  * [Angular CLI Common Commands](appendix/angular_cli_common_commands.md)

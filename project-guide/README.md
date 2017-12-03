@@ -1,6 +1,6 @@
 # Angular Material Heroes Introduction
 
-A book following the Tour of Heroes guide from [angular.io](https://angular.io/tutorial) and incorporating [Angular Material](https://material.angular.io/) project. This project and it's accompanying guide is a work in progress and more will be added as I go.
+A book following the Tour of Heroes guide from [angular.io](https://angular.io/tutorial) and incorporating [Angular Material](https://material.angular.io/) project. As a massive fan of the Marvel Cinematic Universe, this tutorial will incorporate MCU Heroes. This project and it's accompanying guide is a work in progress and more will be added as I go.
 
 The guide to this project can be found at [GitBook Project Guide](https://codeninja55.gitbooks.io/angular-material-heroes/content/). The code for this project can be found at [GitHub](https://github.com/codeninja55/angular-material-heroes).
 
