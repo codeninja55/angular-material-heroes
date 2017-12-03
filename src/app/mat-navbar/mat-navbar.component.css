@@ -19,3 +19,11 @@
   line-height: 0;
   color: #fff;
 }
+
+.navbar-right {
+  margin-right: 10px;
+}
+
+.navbar a span {
+  font-size: 1.5rem;
+}
