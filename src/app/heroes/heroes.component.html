@@ -7,9 +7,9 @@
             <img matListAvatar src="{{ hero.avatarPath }}" alt="">
             <p class="hero-list blue-grey-text text-lighten-3">{{ hero.id }}</p>
             <p class="hero-list">{{ hero.name}}</p>
+            <div class="mat-button-ripple mat-ripple" mat-ripple></div>
+            <div class="mat-button-focus-overlay"></div>
           </a>
-          <div class="mat-button-ripple mat-ripple" mat-ripple></div>
-          <div class="mat-button-focus-overlay"></div>
         </mat-list-item>
       </mat-list>
     </mat-card>
@@ -20,7 +20,7 @@
 
 <div class="row" *ngIf="selectedHero">
   <div class="col s6 offset-s3">
-    <mat-card class="mat-elevation-z4">
+    <mat-card class="mat-elevation-z3">
       <mat-card-header>
         <img mat-card-avatar src="{{ selectedHero.avatarPath }}" alt="{{ selectedHero.name }} image">
         <mat-card-title>{{ selectedHero.name | uppercase }}</mat-card-title>

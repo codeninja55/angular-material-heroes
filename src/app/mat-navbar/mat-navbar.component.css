@@ -1,5 +1,3 @@
-@import '../../../node_modules/@angular/material/prebuilt-themes/indigo-pink.css';
-
 .flex-spacer {
   -webkit-box-flex: 1;
   /*flex-grow: 1;*/
