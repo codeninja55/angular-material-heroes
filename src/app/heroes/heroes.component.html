@@ -1,18 +1,16 @@
 <div class="row mt-3">
   <div class="col-sm-6 offset-sm-3">
     <mat-card class="mat-elevation-z3 mat-typography">
-      <mat-list class="">
+      <mat-nav-list class="">
         <mat-list-item *ngFor="let hero of heroes" (click)="onSelect(hero)"
                        [class.selected]="hero === selectedHero">
-          <a href="#" mat-button class="mat-button" aria-disabled="false" style="padding: 8px">
+          <a matLine href="#" aria-disabled="false">
             <img matListAvatar src="{{ hero.avatarPath }}" alt="">
             <p class="hero-list blue-grey-text text-lighten-3">{{ hero.id }}</p>
             <p class="hero-list">{{ hero.name}}</p>
-            <div class="mat-button-ripple mat-ripple" mat-ripple></div>
-            <div class="mat-button-focus-overlay"></div>
           </a>
         </mat-list-item>
-      </mat-list>
+      </mat-nav-list>
     </mat-card>
   </div>
 </div>
