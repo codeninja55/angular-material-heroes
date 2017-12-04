@@ -29,8 +29,16 @@
 * [5.0. Tour of Heroes Tutorial](chapter-5/INTRODUCTION.md)
   * [5.1. Application Shell](chapter-5/5.1.application_shell.md)
   * [5.2. Angular Material Navbar](chapter-5/5.2.angular_material_navbar.md)
-  * [5.3. Hero Editor](chapter-5/5.3.hero_editor.md)
+  * [5.3. Angular Material Typography](chapter-5/5.3.angular_material_typography.md)
+  * [5.4. Hero Editor](chapter-5/5.4.hero_editor.md)
+  * [5.5. Displaying a List](chapter-5/5.5.displaying_a_list.md)
+  * [5.6. Angular Material Custom Theme](chapter-5/angular_material_custom_theme.md)
+  * [5.7. Master/Detail](chapter-5/5.7.mater_detail.md)
 
+
+---
+
+* Angular Advanced Topics
 
 ---
 
