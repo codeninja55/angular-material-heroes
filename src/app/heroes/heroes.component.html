@@ -2,7 +2,8 @@
   <div class="col-sm-6 offset-sm-3">
     <mat-card class="mat-elevation-z3 mat-typography">
       <mat-list class="">
-        <mat-list-item *ngFor="let hero of heroes" (click)="onSelect(hero)" [class.selected]="hero === selectedHero">
+        <mat-list-item *ngFor="let hero of heroes" (click)="onSelect(hero)"
+                       [class.selected]="hero === selectedHero">
           <a href="#" mat-button class="mat-button" aria-disabled="false" style="padding: 8px">
             <img matListAvatar src="{{ hero.avatarPath }}" alt="">
             <p class="hero-list blue-grey-text text-lighten-3">{{ hero.id }}</p>
@@ -16,28 +17,4 @@
   </div>
 </div>
 
-<div class="row"></div>
-
-<div class="row" *ngIf="selectedHero">
-  <div class="col-sm-6 offset-sm-3 mt-3">
-    <mat-card class="mat-elevation-z3 mat-typography">
-      <mat-card-header>
-        <img mat-card-avatar class="avatar-image" src="{{ selectedHero.avatarPath }}" alt="{{ selectedHero.name }} image">
-        <mat-card-title>{{ selectedHero.name | uppercase }}</mat-card-title>
-        <mat-card-subtitle><span>ID:</span> {{ selectedHero.id }}</mat-card-subtitle>
-      </mat-card-header>
-      <img mat-card-image src="{{ selectedHero.imgPath }}" alt="{{ selectedHero.name }} image">
-      <mat-card-content>
-        <mat-input-container class="form-container">
-          <input type="text" placeholder="Name:" matInput [(ngModel)]="selectedHero.name">
-        </mat-input-container>
-        <p><b>Real Name:</b> {{ selectedHero.realName }}</p>
-        <p><b>Powers:</b> {{ selectedHero.powers }}</p>
-        <p><b>Abilities:</b> {{ selectedHero.abilities }}</p>
-      </mat-card-content>
-      <mat-card-actions>
-        <button mat-button>LIKE</button>
-      </mat-card-actions>
-    </mat-card>
-  </div>
-</div>
+<app-hero-detail [hero]="selectedHero"></app-hero-detail>
