@@ -1,0 +1,23 @@
+<div class="row" *ngIf="hero">
+  <div class="col-sm-6 offset-sm-3 mt-3">
+    <mat-card class="mat-elevation-z3 mat-typography">
+      <mat-card-header>
+        <img mat-card-avatar class="avatar-image" src="{{ hero.avatarPath }}" alt="{{ hero.name }} image">
+        <mat-card-title>{{ hero.name | uppercase }}</mat-card-title>
+        <mat-card-subtitle><span>ID:</span> {{ hero.id }}</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image src="{{ hero.imgPath }}" alt="{{ hero.name }} image">
+      <mat-card-content>
+        <mat-input-container class="form-container">
+          <input type="text" placeholder="Name:" matInput [(ngModel)]="hero.name">
+        </mat-input-container>
+        <p><b>Real Name:</b> {{ hero.realName }}</p>
+        <p><b>Powers:</b> {{ hero.powers }}</p>
+        <p><b>Abilities:</b> {{ hero.abilities }}</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button>LIKE</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>
