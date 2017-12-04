@@ -7,39 +7,20 @@
   width: 100%;
 }
 
-/* Override MaterializeCSS Form defaults */
-input:not([type]), input[type=text]:not(.browser-default),
-input[type=password]:not(.browser-default), input[type=email]:not(.browser-default),
-input[type=url]:not(.browser-default), input[type=time]:not(.browser-default),
-input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default),
-input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default),
-input[type=number]:not(.browser-default), input[type=search]:not(.browser-default),
-textarea.materialize-textarea textarea.materialize-textarea {
-  background-color: transparent;
-  border-style: none !important;
-  border-radius: 0 !important;
-  border-bottom: none !important;
-  outline: none;
-  height: 1.5rem;
-  width: 100%;
-  font-size: 1rem;
-  margin: 0;
-  padding: 0;
-  -webkit-box-shadow: 0 0 0 0 !important;
-  box-shadow: 0 0 0 0 !important;
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box;
-  -webkit-transition: none;
-  transition: none;
+.hero-list {
+display: inline;
+}
+
+.mat-list-avatar {
+width: 30px !important;
+height: 30px !important;
+}
+
+.mat-list-item {
+height: 48px !important;
 }
 
 .selected {
   background-color: #607d8b !important;
   color: white;
-}
-
-.hero-list {
-  display: inline;
-  font-size: 1.2rem;
-  margin-left: 8px;
 }
