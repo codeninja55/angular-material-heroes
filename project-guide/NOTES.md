@@ -10,4 +10,6 @@
   * Class Binding
   * Property Binding
 * Input and Output Properties
+* [Dependency injection pattern](https://angular.io/guide/dependency-injection-pattern)
+  * [Angular Dependency injection](https://angular.io/guide/dependency-injection)
 
