@@ -9,7 +9,7 @@
       <img mat-card-image src="{{ hero.imgPath }}" alt="{{ hero.name }} image">
       <mat-card-content>
         <mat-input-container class="d-flex flex-column w-100">
-          <input type="text" placeholder="Name:" matInput [(ngModel)]="hero.name" class="d-flex flex-column w-100">
+          <input type="text" matInput placeholder="Name:" [(ngModel)]="hero.name" class="d-flex flex-column w-100">
         </mat-input-container>
         <p><b>Real Name:</b> {{ hero.realName }}</p>
         <p><b>Powers:</b> {{ hero.powers }}</p>
