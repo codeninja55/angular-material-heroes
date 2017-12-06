@@ -40,7 +40,7 @@
 
 ---
 
-* Angular In-Depth
+* Angular Advanced Topics
 
 ---
 
