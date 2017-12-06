@@ -1,15 +1,52 @@
-.container-fluid {
-  position: absolute;
-  height: 100vh;
-  /*overflow-y: auto;*/
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
   left: 0;
   right: 0;
+  z-index: 10;
+}
+
+.navbar div {
+  height: inherit !important;
+}
+
+.mat-button-focus-overlay {
+  height: inherit !important;
+}
+
+.mat-button {
+  height: inherit !important;
+  padding: 0 !important;
+  min-width: 56px;
+}
+
+.hamburger {
+  padding: 0 2rem !important;
+}
+
+.header {
+  min-width: 120px;
+  padding: 0 1.25rem !important;
+}
+
+.sidenav-container {
+  position: absolute;
+  top: 60px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+.sidenav-content {
+  overflow: hidden;
 }
 
 .sidenav {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
-  width: 200px;
-  background: rgba(255, 0, 0, 0.5);
+  width: 250px;
+  z-index: 11;
 }

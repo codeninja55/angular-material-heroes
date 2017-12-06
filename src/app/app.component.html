@@ -1,28 +1,60 @@
-<div class="container-fluid">
-  <app-mat-navbar></app-mat-navbar>
-  <div class="row red pt-5">
-    <div class="col-sm-12 no-gutters">
-      <h1 class="mat-display-1 text-center white-text">{{ title }}</h1>
+<mat-toolbar class="mat-elevation-z6 navbar mat-toolbar" color="primary" role="toolbar">
+  <mat-toolbar-row class="mat-toolbar-row p-0">
+    <div class="col-sm-4 no-gutters p-0">
+      <button mat-button class="hamburger mat-button" title="SideNav" (click)="sidenav.toggle()">
+        <span class="mat-button-wrapper">
+          <mat-icon class="mat-icon mat-24" aria-hidden="true">menu</mat-icon>
+        </span>
+      </button>
     </div>
-  </div>
 
-  <mat-sidenav-container>
-    <mat-sidenav #sidenav mode="side" [opened]="false" [fixedInViewport]="fixed">
-      Sidenav content
-    </mat-sidenav>
-    <mat-sidenav-content>
+    <div class="col-sm-4 no-gutters text-center p-0">
+      <button mat-button class="mat-button header" title="header">
+        <mat-icon class="mat-icon mat-24 align-middle">code</mat-icon>
+        <span class="mat-header align-middle m-auto">Angular Material Heroes</span>
+      </button>
+    </div>
 
+    <div class="col-sm-4 no-gutters align-middle text-right p-0">
+      <button mat-button class="mat-button p-0 m-0" title="Angular" type="button"
+              onclick="window.open('https://angular.io/')">
+        <img src="../assets/img/mat-navbar/angular-white.svg" alt="Angular svg icon" width="24px" />
+      </button>
 
+      <button mat-button class="mat-button p-0 m-0" title="Angular" type="button"
+              onclick="window.open('https://material.angular.io/')">
+        <img src="../assets/img/mat-navbar/Google_Material_Design_Logo.png" alt="Material Design png icon" width="24">
+      </button>
 
-      <div class="row">
-        <div class="col">
-          <app-heroes></app-heroes>
-        </div>
-      </div>
-    </mat-sidenav-content>
-  </mat-sidenav-container>
+      <button mat-button class="p-0 m-0" title="Angular" type="button"
+              onclick="window.open('https://github.com/codeninja55/angular-material-heroes')">
+        <mat-icon class="mat-icon">
+          <i class="fa fa-github fa-lg align-middle"></i>
+        </mat-icon>
+      </button>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
 
+<mat-sidenav-container class="sidenav-container">
 
-</div>
+  <mat-sidenav #sidenav class="sidenav red lighten-1 white-text pt-4"
+               mode="over" [opened]="false" [fixedInViewport]="fixed" [fixedTopGap]="0" [fixedBottomGap]="0">
 
+    Sidenav content
 
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+
+    <div class="col align-middle align-content-center red py-4">
+      <h1 class="mat-display-1 text-center white-text mb-0">{{ title }}</h1>
+    </div>
+
+    <div class="col-sm-12">
+      <app-heroes></app-heroes>
+    </div>
+
+  </mat-sidenav-content>
+
+</mat-sidenav-container>
