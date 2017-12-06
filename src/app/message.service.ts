@@ -4,18 +4,15 @@ import { MessagesComponent } from './messages/messages.component';
 
 @Injectable()
 export class MessageService {
-  // messages: string[] = [];
-  message: string;
 
   constructor(private snackbar: MatSnackBar) { }
 
   showSnackBar(message: string) {
-    this.message = message;
     const config = new MatSnackBarConfig();
-    config.duration = 5000;
+    config.duration = 2000;
     config.horizontalPosition = 'center';
     config.verticalPosition = 'bottom';
-    config.panelClass = ['red', 'accent-4', 'white-text'];
+    config.panelClass = ['red', 'accent-4', 'text-center', 'white-text'];
 
     // this.snackbar.open(message, 'Dismiss', { duration: 2000 });
     // setTimeout(() => {
@@ -28,12 +25,4 @@ export class MessageService {
       this.snackbar.openFromComponent(MessagesComponent, config);
     });
   }
-
-  // add(message: string): void {
-  //   this.messages.push(message);
-  // }
-
-  // clear(): void {
-  //   this.messages = [];
-  // }
 }
