@@ -32,15 +32,15 @@
   * [5.3. Angular Material Typography](chapter-5/5.3.angular_material_typography.md)
   * [5.4. Hero Editor](chapter-5/5.4.hero_editor.md)
   * [5.5. Displaying a List](chapter-5/5.5.displaying_a_list.md)
-  * [5.6. Angular Material Custom Theme](chapter-5/angular_material_custom_theme.md)
-  * [5.7. Master/Detail](chapter-5/5.7.mater_detail.md)
+  * [5.6. Angular Material Custom Theme](chapter-5/5.6.angular_material_custom_theme.md)
+  * [5.7. Master/Detail](chapter-5/5.7.master_detail.md)
   * [5.8. Services](chapter-5/5.8.services.md)
   * [5.9. Angular Material Snackbar](chapter-5/5.9.angular_material_snackbar.md)
 
 
 ---
 
-* Angular In-Depth
+* Angular Advanced Topics
 
 ---
 
