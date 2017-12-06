@@ -8,7 +8,9 @@ import {
   MatIconModule,
   MatCardModule,
   MAT_PLACEHOLDER_GLOBAL_OPTIONS,
+  MatSnackBarModule,
 } from '@angular/material';
+
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatListModule } from '@angular/material/list';
@@ -25,6 +27,7 @@ import { MatListModule } from '@angular/material/list';
     MatFormFieldModule,
     MatInputModule,
     MatListModule,
+    MatSnackBarModule,
   ],
   exports: [
     BrowserAnimationsModule,
@@ -36,6 +39,7 @@ import { MatListModule } from '@angular/material/list';
     MatFormFieldModule,
     MatInputModule,
     MatListModule,
+    MatSnackBarModule,
   ],
   providers: [
     {provide: MAT_PLACEHOLDER_GLOBAL_OPTIONS, useValue: {float: 'auto'}}
