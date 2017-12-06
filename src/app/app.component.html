@@ -1,15 +1,28 @@
-<app-mat-navbar></app-mat-navbar>
-
 <div class="container-fluid">
+  <app-mat-navbar></app-mat-navbar>
   <div class="row red pt-5">
     <div class="col-sm-12 no-gutters">
       <h1 class="mat-display-1 text-center white-text">{{ title }}</h1>
     </div>
   </div>
 
-  <div class="row">
-    <div class="col">
-      <app-heroes></app-heroes>
-    </div>
-  </div>
+  <mat-sidenav-container>
+    <mat-sidenav #sidenav mode="side" [opened]="false" [fixedInViewport]="fixed">
+      Sidenav content
+    </mat-sidenav>
+    <mat-sidenav-content>
+
+
+
+      <div class="row">
+        <div class="col">
+          <app-heroes></app-heroes>
+        </div>
+      </div>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+
+
 </div>
+
+
