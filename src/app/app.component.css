@@ -1,5 +1,4 @@
 .container-fluid {
   position: absolute;
   height: 100vh;
-  overflow-y: auto;
 }
