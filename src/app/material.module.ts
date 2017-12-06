@@ -12,16 +12,18 @@ import {
   MatRippleModule,
 } from '@angular/material';
 
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatListModule } from '@angular/material/list';
-import { MatSidenavModule } from '@angular/material/sidenav'
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 
 @NgModule({
   imports: [
     BrowserAnimationsModule,
     MatButtonModule,
+    MatButtonToggleModule,
     MatMenuModule,
     MatToolbarModule,
     MatIconModule,
@@ -36,6 +38,7 @@ import { MatSidenavModule } from '@angular/material/sidenav'
   exports: [
     BrowserAnimationsModule,
     MatButtonModule,
+    MatButtonToggleModule,
     MatMenuModule,
     MatToolbarModule,
     MatIconModule,
