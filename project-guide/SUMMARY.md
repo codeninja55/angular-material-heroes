@@ -34,6 +34,8 @@
   * [5.5. Displaying a List](chapter-5/5.5.displaying_a_list.md)
   * [5.6. Angular Material Custom Theme](chapter-5/angular_material_custom_theme.md)
   * [5.7. Master/Detail](chapter-5/5.7.mater_detail.md)
+  * [5.8. Services](chapter-5/5.8.services.md)
+  * [5.9. Angular Material Snackbar](chapter-5/5.9.angular_material_snackbar.md)
 
 
 ---
