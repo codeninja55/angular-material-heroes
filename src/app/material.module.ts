@@ -9,11 +9,13 @@ import {
   MatCardModule,
   MAT_PLACEHOLDER_GLOBAL_OPTIONS,
   MatSnackBarModule,
+  MatRippleModule,
 } from '@angular/material';
 
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatListModule } from '@angular/material/list';
+import { MatSidenavModule } from '@angular/material/sidenav'
 
 
 @NgModule({
@@ -28,6 +30,8 @@ import { MatListModule } from '@angular/material/list';
     MatInputModule,
     MatListModule,
     MatSnackBarModule,
+    MatSidenavModule,
+    MatRippleModule,
   ],
   exports: [
     BrowserAnimationsModule,
@@ -40,6 +44,8 @@ import { MatListModule } from '@angular/material/list';
     MatInputModule,
     MatListModule,
     MatSnackBarModule,
+    MatSidenavModule,
+    MatRippleModule,
   ],
   providers: [
     {provide: MAT_PLACEHOLDER_GLOBAL_OPTIONS, useValue: {float: 'auto'}}
