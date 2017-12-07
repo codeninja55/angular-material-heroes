@@ -36,6 +36,7 @@
   * [5.7. Master/Detail](chapter-5/5.7.master_detail.md)
   * [5.8. Services](chapter-5/5.8.services.md)
   * [5.9. Angular Material Snackbar](chapter-5/5.9.angular_material_snackbar.md)
+  * [5.10. Angular Material Sidenav](chapter-5/5.10.angular_material_sidenav.md)
 
 
 ---
