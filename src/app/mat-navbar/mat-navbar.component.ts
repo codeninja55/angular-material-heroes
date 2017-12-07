@@ -6,13 +6,13 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
   styleUrls: ['./mat-navbar.component.css']
 })
 export class MatNavbarComponent implements OnInit {
-  @Output() toggle = new EventEmitter<boolean>();
+  @Output() navToggle = new EventEmitter<boolean>();
 
   constructor() { }
 
   ngOnInit() { }
 
-  navToggle() {
-    this.toggle.emit(true);
+  toggleSidenav() {
+    this.navToggle.emit(true);
   }
 }
