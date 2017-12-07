@@ -1,15 +1,24 @@
-<app-mat-navbar></app-mat-navbar>
+<app-mat-navbar (navToggle)="sidenav.toggle()"></app-mat-navbar>
 
-<div class="container-fluid">
-  <div class="row red pt-5">
-    <div class="col-sm-12 no-gutters">
-      <h1 class="mat-display-1 text-center white-text">{{ title }}</h1>
+<mat-sidenav-container class="sidenav-container">
+
+  <mat-sidenav #sidenav class="sidenav red lighten-1 white-text pt-4"
+               mode="over" [opened]="false" [fixedInViewport]="fixed" [fixedTopGap]="0" [fixedBottomGap]="0">
+
+    Sidenav content
+
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+
+    <div class="col align-middle align-content-center red py-4">
+      <h1 class="mat-display-1 text-center white-text mb-0">{{ title }}</h1>
     </div>
-  </div>
 
-  <div class="row">
-    <div class="col">
+    <div class="col-sm-12">
       <app-heroes></app-heroes>
     </div>
-  </div>
-</div>
+
+  </mat-sidenav-content>
+
+</mat-sidenav-container>
