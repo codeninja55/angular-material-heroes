@@ -1,7 +1,7 @@
 <app-mat-navbar (navToggle)="sidenav.toggle()"></app-mat-navbar>
 
 <mat-sidenav-container class="sidenav-container">
-  <mat-sidenav #sidenav class="sidenav red lighten-1 white-text pt-4"
+  <mat-sidenav #sidenav class="sidenav white red-text pt-4"
                mode="over" [opened]="false" [fixedInViewport]="fixed" [fixedTopGap]="0" [fixedBottomGap]="0">
 
     Sidenav content
@@ -9,7 +9,7 @@
   </mat-sidenav>
 
   <mat-sidenav-content>
-    <div class="col align-middle align-content-center red py-4">
+    <div class="col align-middle align-content-center red lighten-1 py-5">
       <h1 class="mat-display-1 text-center white-text mb-0">{{ title }}</h1>
     </div>
 
