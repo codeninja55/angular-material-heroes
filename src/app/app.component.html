@@ -7,7 +7,7 @@
     <div class="col p-0">
       <mat-nav-list class="mat-nav-list" (click)="sidenav.close()">
         <mat-list-item class="align-middle">
-          <a matLine class="pl-3 align-middle" routerLink="/" aria-disabled="false">
+          <a matLine class="pl-3 align-middle" routerLink="/dashboard" aria-disabled="false">
             <mat-icon class="mat-icon align-middle">dashboard</mat-icon>
             &nbsp;Dashboard
           </a>
@@ -24,13 +24,6 @@
   </mat-sidenav>
 
   <mat-sidenav-content>
-    <div class="col align-middle align-content-center red lighten-1 py-5">
-      <h1 class="mat-display-1 text-center white-text mb-0">{{ title }}</h1>
-    </div>
-
-    <div class="col-sm-12">
-      <router-outlet></router-outlet>
-    </div>
-
+    <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>
