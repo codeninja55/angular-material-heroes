@@ -1,0 +1,24 @@
+<div class="col align-middle align-content-center red lighten-1 py-5">
+  <h1 class="mat-display-1 text-center white-text mb-0">Dashboard</h1>
+</div>
+
+<div class="col-sm-10 offset-1 mt-3">
+  <mat-card class="mat-elevation-z4 mat-typography p-3">
+    <mat-card-header class="align-items-center justify-content-center">
+      <h2 class="mat-headline">Top Heroes</h2>
+    </mat-card-header>
+    <mat-card-content>
+      <mat-grid-list cols="4" rowHeight="200px" gutterSize="10px">
+        <mat-grid-tile class="mat-grid-list mat-elevation-z4" *ngFor="let hero of heroes">
+          <a routerLink="/hero/{{ hero.id }}">
+            <img src="{{ hero.avatarPath }}" alt="{{ hero.name }} dashboard image">
+            <mat-grid-tile-footer class="mat-grid-tile-footer font-weight-bold">
+              {{ hero.name }}
+            </mat-grid-tile-footer>
+          </a>
+        </mat-grid-tile>
+      </mat-grid-list>
+    </mat-card-content>
+  </mat-card>
+</div>
+

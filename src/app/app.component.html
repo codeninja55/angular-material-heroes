@@ -1,24 +1,28 @@
 <app-mat-navbar (navToggle)="sidenav.toggle()"></app-mat-navbar>
 
 <mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #sidenav class="sidenav white red-text pt-2" mode="over" [opened]="false"
+               [fixedInViewport]="fixed" [fixedTopGap]="0" [fixedBottomGap]="0">
 
-  <mat-sidenav #sidenav class="sidenav red lighten-1 white-text pt-4"
-               mode="over" [opened]="false" [fixedInViewport]="fixed" [fixedTopGap]="0" [fixedBottomGap]="0">
-
-    Sidenav content
-
+    <div class="col p-0">
+      <mat-nav-list class="mat-nav-list" (click)="sidenav.close()">
+        <mat-list-item class="align-middle">
+          <a matLine class="pl-3 align-middle" routerLink="/dashboard">
+            <mat-icon class="mat-icon align-middle">dashboard</mat-icon>
+            &nbsp;Dashboard
+          </a>
+        </mat-list-item>
+        <mat-list-item>
+          <a matLine class="pl-3" routerLink="/heroes">
+            <img src="../assets/img/mat-navbar/icons8-avengers-50.png" [width]="24">
+            &nbsp;Heroes
+          </a>
+        </mat-list-item>
+      </mat-nav-list>
+    </div>
   </mat-sidenav>
 
   <mat-sidenav-content>
-
-    <div class="col align-middle align-content-center red py-4">
-      <h1 class="mat-display-1 text-center white-text mb-0">{{ title }}</h1>
-    </div>
-
-    <div class="col-sm-12">
-      <app-heroes></app-heroes>
-    </div>
-
+    <router-outlet></router-outlet>
   </mat-sidenav-content>
-
 </mat-sidenav-container>

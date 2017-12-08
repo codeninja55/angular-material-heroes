@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {
-  MatButtonModule,
   MatMenuModule,
   MatToolbarModule,
   MatIconModule,
@@ -12,11 +11,13 @@ import {
   MatRippleModule,
 } from '@angular/material';
 
+import { MatButtonModule } from '@angular/material/button';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 
 @NgModule({
@@ -34,6 +35,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     MatSnackBarModule,
     MatSidenavModule,
     MatRippleModule,
+    MatGridListModule,
   ],
   exports: [
     BrowserAnimationsModule,
@@ -49,6 +51,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     MatSnackBarModule,
     MatSidenavModule,
     MatRippleModule,
+    MatGridListModule,
   ],
   providers: [
     {provide: MAT_PLACEHOLDER_GLOBAL_OPTIONS, useValue: {float: 'auto'}}

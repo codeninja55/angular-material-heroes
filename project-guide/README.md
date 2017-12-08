@@ -18,12 +18,6 @@ This project is made for those raw beginners out in Angular and Web Development 
 
 
 
-## How to follow progress?
-
-Each chapter of the project guide can be followed by its accompanying branch. Each branch will be named chapter_#. 
-
-
-
 ## Code convention
 
 Code convention will follow the Markdown syntax. Commands and output that are written for BASH or Command Prompt will include a $ (convention for Linux BASH). 
@@ -74,6 +68,19 @@ body {
 </head>
 ```
 
+Code blocks designated with `...` show existing code from previous sections to allow focus on the additions of new parts to the file. For example:
+
+###### folder/file.ts
+
+```typescript
+/** This is the same TypeScript file as previously with additions */
+function foo() {
+  ...
+  
+  console.log('New console log added below previous one not shown in this block')
+}
+```
+
 By convention, coming from a Python development background, I tend to follow the [PEP Style Guide](https://www.python.org/dev/peps/pep-0008/). However, as Angular 2 has it's own [style guide](https://angular.io/guide/styleguide) written by [John Papa](https://github.com/johnpapa/angular-styleguide), I will try to follow that convention as closely as possible.
 
 
@@ -103,6 +110,7 @@ Please note some of the versions will not be current if you are reading this in 
 | [NodeJS v8.9.1 LTS](https://nodejs.org/en/download/) | [NodeJS v8.9.1 LTS](https://nodejs.org/en/download/) |
 | [npm 5.5.1](https://docs.npmjs.com/getting-started/installing-node) | [npm 5.5.1](https://docs.npmjs.com/getting-started/installing-node) |
 | [Angular CLI v1.5.4](https://cli.angular.io/) | [Angular CLI v1.5.4](https://cli.angular.io/) |
+| Angular v5.0.5                           | Angular v5.0.5                           |
 | NodeJS Command Prompt                    | BASH                                     |
 
 
