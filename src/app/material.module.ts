@@ -17,6 +17,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 
 @NgModule({
@@ -34,6 +35,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     MatSnackBarModule,
     MatSidenavModule,
     MatRippleModule,
+    MatGridListModule,
   ],
   exports: [
     BrowserAnimationsModule,
@@ -49,6 +51,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     MatSnackBarModule,
     MatSidenavModule,
     MatRippleModule,
+    MatGridListModule,
   ],
   providers: [
     {provide: MAT_PLACEHOLDER_GLOBAL_OPTIONS, useValue: {float: 'auto'}}
