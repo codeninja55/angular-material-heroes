@@ -14,7 +14,7 @@
 .sidenav {
   display: flex;
   align-items: start;
-  justify-content: center;
+  justify-content: left;
   width: 250px;
-  z-index: 11;
+  z-index: 3;
 }

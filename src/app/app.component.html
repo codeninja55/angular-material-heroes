@@ -1,12 +1,25 @@
 <app-mat-navbar (navToggle)="sidenav.toggle()"></app-mat-navbar>
 
 <mat-sidenav-container class="sidenav-container">
-  <mat-sidenav #sidenav class="sidenav white red-text pt-4"
-               mode="over" [opened]="false" [fixedInViewport]="fixed" [fixedTopGap]="0" [fixedBottomGap]="0">
+  <mat-sidenav #sidenav class="sidenav white red-text pt-2" mode="over" [opened]="false"
+               [fixedInViewport]="fixed" [fixedTopGap]="0" [fixedBottomGap]="0">
 
-    <a mat-button>
-
-    </a>
+    <div class="col p-0">
+      <mat-nav-list class="mat-nav-list" (click)="sidenav.close()">
+        <mat-list-item class="align-middle">
+          <a matLine class="pl-3 align-middle" routerLink="/" aria-disabled="false">
+            <mat-icon class="mat-icon align-middle">dashboard</mat-icon>
+            &nbsp;Dashboard
+          </a>
+        </mat-list-item>
+        <mat-list-item>
+          <a matLine class="pl-3" routerLink="/heroes">
+            <img src="../assets/img/mat-navbar/icons8-avengers-50.png" [width]="24">
+            &nbsp;Heroes
+          </a>
+        </mat-list-item>
+      </mat-nav-list>
+    </div>
 
   </mat-sidenav>
 
