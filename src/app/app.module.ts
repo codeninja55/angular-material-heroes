@@ -9,6 +9,7 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { HeroService } from './hero.service';
 import { MessageService } from './message.service';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { MessageService } from './message.service';
     BrowserModule,
     MaterialModule,
     FormsModule,
+    AppRoutingModule,
   ],
   entryComponents: [],
   providers: [ HeroService, MessageService ],
