@@ -38,6 +38,7 @@
   * [5.9. Angular Material Snackbar](chapter-5/5.9.angular_material_snackbar.md)
   * [5.10. Angular Material Sidenav](chapter-5/5.10.angular_material_sidenav.md)
   * [5.11. Routing](chapter-5/5.11.routing.md)
+  * [5.12. HTTP](chapter-5/5.12.http.md)
 
 
 ---
