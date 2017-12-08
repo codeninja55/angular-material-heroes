@@ -10,7 +10,7 @@
     <mat-card-content>
       <mat-grid-list cols="4" rowHeight="200px" gutterSize="10px">
         <mat-grid-tile class="mat-grid-list mat-elevation-z4" *ngFor="let hero of heroes">
-          <a href="">
+          <a routerLink="/hero/{{ hero.id }}">
             <img src="{{ hero.avatarPath }}" alt="{{ hero.name }} dashboard image">
             <mat-grid-tile-footer class="mat-grid-tile-footer font-weight-bold">
               {{ hero.name }}
