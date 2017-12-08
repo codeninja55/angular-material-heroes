@@ -1,12 +1,16 @@
+<div class="col align-middle align-content-center red lighten-1 py-5">
+  <h1 class="mat-display-1 text-center white-text mb-0">Hero</h1>
+</div>
+
 <div class="row" *ngIf="hero">
-  <div class="col-sm-6 offset-sm-3 mt-3">
+  <div class="col-sm-8 offset-sm-2 mt-3">
     <mat-card class="mat-elevation-z3 mat-typography">
       <mat-card-header>
         <img mat-card-avatar class="avatar-image" src="{{ hero.avatarPath }}" alt="{{ hero.name }} image">
         <mat-card-title>{{ hero.name | uppercase }}</mat-card-title>
         <mat-card-subtitle><span>ID:</span> {{ hero.id }}</mat-card-subtitle>
       </mat-card-header>
-      <img mat-card-image src="{{ hero.imgPath }}" alt="{{ hero.name }} image">
+      <!--<img mat-card-image src="{{ hero.imgPath }}" alt="{{ hero.name }} image">-->
       <mat-card-content>
         <mat-input-container class="d-flex flex-column w-100">
           <input type="text" matInput placeholder="Name:" [(ngModel)]="hero.name" class="d-flex flex-column w-100">
@@ -19,5 +23,11 @@
         <button mat-button>LIKE</button>
       </mat-card-actions>
     </mat-card>
+  </div>
+  <div class="col-4 offset-4 mt-4 text-center">
+    <button mat-raised-button class="mat-raised-button red accent-4 white-text" (click)="goBack()">
+      <mat-icon>arrow_back</mat-icon>
+      &nbsp;BACK
+    </button>
   </div>
 </div>
