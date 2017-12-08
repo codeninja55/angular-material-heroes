@@ -1,0 +1,19 @@
+<div class="col align-middle align-content-center red lighten-1 py-5">
+  <h1 class="mat-display-1 text-center white-text mb-0">Dashboard</h1>
+</div>
+
+<div class="col-sm-8 offset-2 mt-3">
+
+  <mat-grid-list cols="4" rowHeight="1:1">
+      <mat-grid-tile *ngFor="let hero of heroes" [rowspan]="1">
+        <div>
+          <a href="">
+            <img src="{{ hero.avatarPath }}" alt="{{ hero.name }} image">
+            <mat-grid-tile-footer class="mat-grid-tile-footer">{{ hero.name }}</mat-grid-tile-footer>
+          </a>
+        </div>
+      </mat-grid-tile>
+
+  </mat-grid-list>
+</div>
+
