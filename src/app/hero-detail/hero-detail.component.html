@@ -1,5 +1,5 @@
 <div class="col align-middle align-content-center red lighten-1 py-5">
-  <h1 class="mat-display-1 text-center white-text mb-0">Hero</h1>
+  <h1 class="mat-display-1 text-center white-text mb-0" >Hero Detail</h1>
 </div>
 
 <div class="row" *ngIf="hero">
@@ -19,8 +19,17 @@
         <p><b>Powers:</b> {{ hero.powers }}</p>
         <p><b>Abilities:</b> {{ hero.abilities }}</p>
       </mat-card-content>
-      <mat-card-actions>
-        <button mat-button>LIKE</button>
+      <mat-card-actions align="start">
+        <button mat-button class="red-text text-lighten-2" (click)="save()">
+          <mat-icon>
+            save
+          </mat-icon>
+          &nbsp;SAVE
+        </button>
+        <button mat-button class="red-text text-lighten-2">
+          <mat-icon>plus_one</mat-icon>
+          &nbsp;LIKE
+        </button>
       </mat-card-actions>
     </mat-card>
   </div>
