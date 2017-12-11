@@ -5,7 +5,7 @@
   </button>
 </div>
 
-<div class="col-sm-6 offset-sm-3 mt-5">
+<div class="col-lg-6 offset-lg-3 col-md-10 offset-md-1 mt-5">
   <mat-card class="mat-elevation-z3 mat-typography">
     <mat-nav-list class="">
       <mat-list-item *ngFor="let hero of heroes">
@@ -14,6 +14,9 @@
           <p class="hero-list blue-grey-text text-lighten-3">{{ hero.id }}</p>
           <p class="hero-list">{{ hero.name}}</p>
         </a>
+        <button mat-icon-button class="red-text text-accent-4" (click)="delete(hero)">
+          <mat-icon>delete</mat-icon>
+        </button>
       </mat-list-item>
     </mat-nav-list>
   </mat-card>
