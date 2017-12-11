@@ -24,29 +24,32 @@ export class HeroService {
   }
 
   /** POST: add a new hero to the server */
-  addHero (hero: Hero): Observable<Hero> {
-    return this.http.post<Hero>(this.heroesUrl, hero, httpOptions).pipe(
-      tap((hero: Hero) => this.log(`added hero w/ id=${hero.id}`)),
-      catchError(this.handleError<Hero>('addHero'))
-    );
+  addHero(hero: Hero): Observable<Hero> {
+    return this.http.post<Hero>(this.heroesUrl, hero, httpOptions)
+      .pipe(
+        tap((newHero: Hero) => this.log(`added hero w/ id=${newHero.id}`)),
+        catchError(this.handleError<Hero>('addHero'))
+      );
   }
 
   // New HttpClient method
   getHeroes(): Observable<Hero[]> {
     // this.messageService.add('HeroService: fetched heroes');
-    return this.http.get<Hero[]>(this.heroesUrl).pipe(
-      tap(() => this.log('fetched heroes.')),
-      catchError(this.handleError('getHeroes', []))
-    );
+    return this.http.get<Hero[]>(this.heroesUrl)
+      .pipe(
+        tap(() => this.log('fetched heroes.')),
+        catchError(this.handleError('getHeroes', []))
+      );
   }
 
   // New HttpClient method
   getHero(id: number): Observable<Hero> {
     const url = `${this.heroesUrl}/${id}`;
-    return this.http.get<Hero>(url).pipe(
-      tap(_ => this.log(`fetched hero id=${id}`)),
-      catchError(this.handleError<Hero>(`getHero id=${id}`))
-    );
+    return this.http.get<Hero>(url)
+      .pipe(
+        tap(() => this.log(`fetched hero id=${id}`)),
+        catchError(this.handleError<Hero>(`getHero id=${id}`))
+      );
   }
 
   /** PUT: update the hero on the server */

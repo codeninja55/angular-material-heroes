@@ -25,8 +25,9 @@ export class HeroFormComponent implements OnInit {
     name = name.trim();
     realName = name.trim();
     if (!name) { return; }
-
-    this.heroService.addHero( new Hero(name, realName, powers, abilities) );
-
+    const hero = new Hero(name, realName, powers, abilities);
+    console.log(hero);
+    this.heroService.addHero(hero)
+      .subscribe((newHero: Hero) => console.log(newHero));
   }
 }
