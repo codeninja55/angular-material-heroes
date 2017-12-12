@@ -1,0 +1,33 @@
+::ng-deep .mat-input-underline {
+  display: none;
+}
+
+::ng-deep .mat-input-wrapper {
+  padding: 0.5rem 0;
+}
+
+::ng-deep .mat-form-field-infix {
+  border-top: none;
+}
+
+::ng-deep .mat-focused {
+  color: #F44336;
+}
+
+.hero-list {
+  display: inline;
+}
+
+.mat-list-avatar {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.mat-list-item {
+  height: 48px !important;
+}
+
+.selected {
+  background-color: #607d8b !important;
+  color: white;
+}

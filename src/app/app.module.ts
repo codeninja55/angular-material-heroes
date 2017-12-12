@@ -18,6 +18,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { InMemoryDataService } from './in-memory-data.service';
 import { HeroFormComponent } from './hero-form/hero-form.component';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { HeroFormComponent } from './hero-form/hero-form.component';
     HeroDetailComponent,
     DashboardComponent,
     HeroFormComponent,
+    HeroSearchComponent,
   ],
   imports: [
     BrowserModule,
