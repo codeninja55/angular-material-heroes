@@ -12,6 +12,7 @@ import {
   MatDatepickerModule,
   MatDialogModule,
   MatExpansionModule,
+  MatFormFieldModule,
   MatGridListModule,
   MatIconModule,
   MatInputModule,
@@ -37,7 +38,7 @@ import {
   MAT_PLACEHOLDER_GLOBAL_OPTIONS,
 } from '@angular/material';
 
-import { MatFormFieldModule } from '@angular/material/form-field';
+// import { MatFormFieldModule } from '@angular/material/form-field';
 import { CdkTableModule } from '@angular/cdk/table';
 
 @NgModule({
@@ -53,6 +54,7 @@ import { CdkTableModule } from '@angular/cdk/table';
     MatDatepickerModule,
     MatDialogModule,
     MatExpansionModule,
+    MatFormFieldModule,
     MatGridListModule,
     MatIconModule,
     MatInputModule,
@@ -75,7 +77,6 @@ import { CdkTableModule } from '@angular/cdk/table';
     MatToolbarModule,
     MatTooltipModule,
     MatStepperModule,
-    MatFormFieldModule,
     FormsModule,
     ReactiveFormsModule,
   ],
@@ -91,6 +92,7 @@ import { CdkTableModule } from '@angular/cdk/table';
     MatDatepickerModule,
     MatDialogModule,
     MatExpansionModule,
+    MatFormFieldModule,
     MatGridListModule,
     MatIconModule,
     MatInputModule,
@@ -113,7 +115,6 @@ import { CdkTableModule } from '@angular/cdk/table';
     MatToolbarModule,
     MatTooltipModule,
     MatStepperModule,
-    MatFormFieldModule,
     FormsModule,
     ReactiveFormsModule,
   ],
