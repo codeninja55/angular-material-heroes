@@ -1,0 +1,27 @@
+<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1 mt-5 p-0">
+  <mat-card class=" d-flex align-items-center mat-elevation-z3 p-0">
+    <mat-form-field class="w-100 px-0 pl-2">
+      <!--<mat-label>Search by name</mat-label>-->
+      <mat-icon matPrefix class="align-middle mr-2">search</mat-icon>
+      <input type="search" matInput #searchBox title="searchBox" (keyup)="search(searchBox.value)">
+      <!--<mat-hint>Search by name</mat-hint>-->
+    </mat-form-field>
+  </mat-card>
+</div>
+
+<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1 mt-3 p-0">
+  <mat-card class="mat-elevation-z3 mat-typography p-0" *ngFor="let hero of heroes$ | async">
+    <mat-nav-list class="p-0">
+      <mat-list-item>
+        <a matLine routerLink="/hero/{{ hero.id }}">
+          <img matListAvatar src="{{ hero.avatarPath }}" alt="">
+          <p class="hero-list blue-grey-text text-lighten-3">{{ hero.id }}</p>
+          <p class="hero-list">{{ hero.name}}</p>
+        </a>
+        <button mat-icon-button class="red-text text-accent-4" (click)="delete(hero)">
+          <mat-icon>delete</mat-icon>
+        </button>
+      </mat-list-item>
+    </mat-nav-list>
+  </mat-card>
+</div>

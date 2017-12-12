@@ -1,8 +1,13 @@
 <div class="col align-middle align-content-center red lighten-1 py-5">
   <h1 class="mat-display-1 text-center white-text mb-0">Dashboard</h1>
+  <button mat-fab class="add-hero-fab white-text" routerLink="/hero/add">
+    <mat-icon>add</mat-icon>
+  </button>
 </div>
 
-<div class="col-sm-10 offset-1 mt-3">
+<app-hero-search></app-hero-search>
+
+<div class="col-lg-10 offset-lg-1 col-sm-12 mt-3">
   <mat-card class="mat-elevation-z4 mat-typography p-3">
     <mat-card-header class="align-items-center justify-content-center">
       <h2 class="mat-headline">Top Heroes</h2>
@@ -21,4 +26,5 @@
     </mat-card-content>
   </mat-card>
 </div>
+
 
